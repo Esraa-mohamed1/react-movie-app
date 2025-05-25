@@ -1,0 +1,121 @@
+/* Additional Custom Styles */
+.container {
+    max-width: 1200px;
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  
+  .text-muted {
+    font-size: 1rem;
+  }
+  
+  .row .col-md-2 {
+    margin-bottom: 20px;
+  }
+  
+  img.rounded-circle {
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+/* Enhanced Movie Details Styles */
+
+.movie-details-enhanced {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d0036 100%);
+  padding-bottom: 40px;
+}
+
+.enhanced-backdrop {
+  filter: blur(0px);
+  border-bottom: 2px solid #ff69b4;
+  box-shadow: 0 8px 32px 0 rgba(255, 105, 180, 0.15);
+}
+
+.drop-shadow {
+  text-shadow: 0 4px 24px #000, 0 1px 1px #ff69b4;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0 8px 32px 0 rgba(255, 105, 180, 0.15);
+  border-radius: 24px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.badge-year {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+
+.badge-genre {
+  background: #6c757d;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+
+.badge-runtime {
+  background: #17a2b8;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+
+.badge-rating {
+  background: #ffd700;
+  color: #222;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+
+.cast-card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(255,182,230,0.10);
+  transition: transform 0.2s;
+}
+.cast-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(255,182,230,0.18);
+}
+
+@media (max-width: 768px) {
+  .movie-details-enhanced .container {
+    padding: 0 8px;
+  }
+  .glass-card {
+    padding: 1rem !important;
+  }
+}
+
+.overview-card {
+  background: rgba(10, 10, 20, 0.85) !important;
+  color: #fff;
+  text-color: white;
+}
+  
